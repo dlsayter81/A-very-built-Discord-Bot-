@@ -1,0 +1,10 @@
+{
+  "671280603466825739": {
+    "misuse_attempts": 3,
+    "hardlock_until": 1761003945.858384,
+    "hardlock_reason": "Unauthorized guess"
+  },
+  "1360869104302686248": {
+    "misuse_attempts": 1
+  }
+}
