@@ -65,3 +65,8 @@ This will start the bot with the previously configured environment.
 Your bot should now be live and ready for administrative tasks!
 
 
+--------------------------------------
+
+This is a Test nothing to do with the instllation instructions above
+
+<!-- Ritual test: verifying Notepad++ Git editor integration -->

@@ -224,6 +224,7 @@ def handle_guess(user_id: str, guess: int, member: discord.Member | None = None)
     if delta <= 10:
         reduction = entry["reduction_percent"]
         result = "full"
+        cancel_guess_timer(user_id)  # ⏳ Ritual closure
         data.pop(user_id, None)
     elif entry["attempts_left"] == 0:
         cancel_guess_timer(user_id)  # <— cancel the active timer
