@@ -1,4 +1,4 @@
-# 🤖 A Very Built Discord Bot
+# 🤖 A Very Built Discord Bot Coded By CrashOverride
 
 Welcome to **A Very Built Discord Bot** — a modular, admin-focused Discord bot built with [Pycord](https://docs.pycord.dev). Designed for symbolic clarity, secure orchestration, and server-side rituals, this bot is ideal for managing Discord communities with precision and control.
 
