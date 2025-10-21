@@ -7,6 +7,66 @@ Welcome to **A Very Built Discord Bot** — a modular, admin-focused Discord bot
 This bot is intended for **administrative use only**. Sensitive commands are locked to a specific channel and require elevated roles. All configuration is handled via environment variables to ensure security and flexibility.
 
 ---
+🧱 Architectural Philosophy
+
+This bot is more than a tool — it’s a symbolic gatekeeper. Every command is part of a layered access ritual:
+🧩 Security Layers
+
+    Initiation — /submit unlocks the server via emojiized code.
+
+    Trial — DM challenge tests symbolic clarity.
+
+    Timeout — /retry allows recovery via number guessing.
+
+    Redemption — /redeem unlocks access to /retry.
+
+    Seal — /seal applies either a timed lock (hardlock) or permanent exile (perma_seal).
+
+    Rate Limit — /submit locks out after 3 failed attempts for 15 hours.
+
+    Self-Unlock — /self_unlock allows a fallback recovery attempt every 3 days, only if enabled by the server owner.
+
+🔒 Enforcement Logic
+
+    All command access is gated by internal checks — not Discord roles.
+
+    Sealed users are blocked from recovery commands.
+
+    Owner-only toggles control fallback rituals.
+
+    No role bloat — all enforcement is logic-driven.
+	
+---
+🛠️ Server Configuration Guide
+
+To support the bot’s onboarding rituals:
+🔸 Default Permissions (@everyone)
+
+    ❌ View Channels
+
+    ❌ Send Messages
+
+    ❌ Read Message History
+
+🔸 Rules Channel Overrides
+
+    ✅ View Channel
+
+    ✅ Read Message History
+
+    ❌ Send Messages
+
+    This ensures new users see the onboarding embed but cannot interact until they complete the ritual.
+
+🔸 Member Role
+
+    Granted after successful /submit
+
+    Unlocks full server access
+
+
+
+
 
 ## 📦 Requirements
 
@@ -23,6 +83,8 @@ This bot is intended for **administrative use only**. Sensitive commands are loc
 ```bash
 git clone https://github.com/dlsayter81/A-very-built-Discord-Bot-.git
 cd A-very-built-Discord-Bot-
+
+
 
 
 2. Configure Environment Variables
@@ -66,7 +128,3 @@ Your bot should now be live and ready for administrative tasks!
 
 
 --------------------------------------
-
-This is a Test nothing to do with the instllation instructions above
-
-<!-- Ritual test: verifying Notepad++ Git editor integration -->
