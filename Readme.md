@@ -24,7 +24,10 @@ This bot is more than a tool — it’s a symbolic gatekeeper. Every command is 
 
     Rate Limit — /submit locks out after 3 failed attempts for 15 hours.
 
-    Self-Unlock — /self_unlock allows a fallback recovery attempt every 3 days, only if enabled by the server owner.
+    ###---Work in Progress (Not implemented yet)
+	Self-Unlock — /self_unlock allows a fallback recovery attempt every 3 days, only if enabled by the server owner.
+	
+	### 
 
 🔒 Enforcement Logic
 
